@@ -10120,12 +10120,11 @@ section.resume-section .resume-section-content {
   width: 100%;
 }
 
-button {
+.buttong {
   border-radius: 30px;
   border-width: 2px;
   color: #ffffff80;
   border-color: #ffffff80;
-  font-style: ;
   align-items: center;
   vertical-align: center;
   background-color: #bd5d38;
