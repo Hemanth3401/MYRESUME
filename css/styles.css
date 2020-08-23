@@ -10122,8 +10122,20 @@ section.resume-section .resume-section-content {
 
 button {
   border-radius: 30px;
+  border-width: 2px;
+  color: #ffffff80;
+  border-color: #ffffff80;
+  font-display: 10px;
   align-items: center;
   vertical-align: center;
+  background-color: #bd5d38;
+  transition-duration: 0.4s;
+  width: 85%;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+button:hover{
+  color:#e1e3e6;
 }
 
 @media (min-width: 768px) {
