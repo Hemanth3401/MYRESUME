@@ -10138,6 +10138,16 @@ button:hover{
   color:#e1e3e6;
 }
 
+.image{
+  height: 400px ;
+  width: 300px;
+}
+
+
+.back{
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(189,93,56,1) 29%);
+}
+
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
