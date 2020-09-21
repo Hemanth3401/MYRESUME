@@ -10143,9 +10143,23 @@ button:hover{
   width: 300px;
 }
 
+.cursor{
+  display: inline-block;
+  width: 3px;
+  background-color: black;
+  margin-left: 0.2rem;
+  animation: blink 1s infinite;
+}
+.cursor.typing{
+  animation: none ;
+}
 
-.back{
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(189,93,56,1) 29%);
+@keyframes blink{
+  0%{background-color: black;}
+  49%{background-color: black;}
+  50%{background-color: transparent;}
+  99%{background-color: transparent;}
+  100%{background-color: black;}
 }
 
 @media (min-width: 768px) {
