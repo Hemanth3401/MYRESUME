@@ -33,3 +33,20 @@ function erase(){
 document.addEventListener("DOMContentLoaded",function(){
     setTimeout(type , newTextDelay+250);
 });
+
+/function for toggling to dark and light theme/
+document.addEventListener('DOMContentLoaded', function () {
+    var checkbox = document.querySelector('#checkbox');
+    var navbar = document.querySelector('.navbar');
+    checkbox.addEventListener('change', function () {
+        if (checkbox.checked) {
+            document.querySelector('body').classList.add("dark-theme");
+            navbar.classList.replace("navbar-light","navbar-dark");
+            navbar.classList.replace("bg-light","bg-dark");
+        } else {
+            document.querySelector('body').classList.remove("dark-theme");
+            navbar.classList.replace("navbar-dark","navbar-light");
+            navbar.classList.replace("bg-dark","bg-light");
+        }
+    });
+});

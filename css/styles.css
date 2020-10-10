@@ -10129,9 +10129,8 @@ section.resume-section .resume-section-content {
   vertical-align: center;
   background-color: #bd5d38;
   transition-duration: 0.4s;
-  width: 85%;
-  height: 45px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  padding: 5px 10px 5px 10px;
 }
 
 button:hover{
@@ -10152,6 +10151,37 @@ button:hover{
 }
 .cursor.typing{
   animation: none ;
+}
+
+.switch-theme {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  color: var(--color-font-primary);
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  margin-left: 30px;
+}
+.switch input {
+  display: none;
+}
+
+.switch-theme input:checked + .slider {
+  background-color: #333;
+}
+
+.switch-theme input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+.switch-theme input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+          transform: translateX(26px);
 }
 
 @keyframes blink{
