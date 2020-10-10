@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded",function(){
     setTimeout(type , newTextDelay+250);
 });
 
-/function for toggling to dark and light theme/
+/*//function for toggling to dark and light theme/
 document.addEventListener('DOMContentLoaded', function () {
     var checkbox = document.querySelector('#checkbox');
     var navbar = document.querySelector('.navbar');
@@ -49,4 +49,4 @@ document.addEventListener('DOMContentLoaded', function () {
             navbar.classList.replace("bg-dark","bg-light");
         }
     });
-});
+});//*/
