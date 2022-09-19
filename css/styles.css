@@ -10184,6 +10184,10 @@ button:hover{
           transform: translateX(26px);
 }
 
+.list-inline-item1 {
+  font-size: 15px;
+}
+
 @keyframes blink{
   0%{background-color: black;}
   49%{background-color: black;}
@@ -10205,3 +10209,4 @@ button:hover{
     padding-bottom: 5rem;
   }
 }
+
